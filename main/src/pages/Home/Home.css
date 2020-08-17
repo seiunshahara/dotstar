@@ -1,0 +1,20 @@
+.home-body{
+    text-align: center;
+}
+
+.home-carousel{
+    padding-bottom: 2em;
+}
+
+.home-carousel img{
+    max-height: 30em;
+    object-fit: cover;
+}
+
+.home-carousel p{
+    text-shadow: 1px 1px var(--primary-text);
+}
+
+.home-carousel h3{
+    text-shadow: 1px 1px var(--primary-text);
+}
