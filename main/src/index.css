@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Bootstrap overrides */
+.card{
+  border: none !important;
+}
+
+.btn-primary{
+  background-color: var(--default-primary) !important;
+  border-color: var(--default-primary) !important;
+}
+
+.btn-primary:hover{
+  background-color: var(--dark-primary) !important;
+  border-color: var(--dark-primary) !important;
+}
